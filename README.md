@@ -9,8 +9,8 @@ like `val x: F[F[A,B], F[C,D]] = ???`.
 Based on the axioms you provide in the implicit scope, you can then apply various transformation to the expression
 through the different functions present in `scalalgebra.AlgebraOps`.
 
-While this library is highly inspired by Shapeless, it doesn't use any of it, in particular we forbid ourselves to use
-any macros (beside in tests).
+While this library is highly inspired by [Shapeless](https://github.com/milessabin/shapeless), it doesn't use any of it,
+in particular we forbid ourselves to use any macros (beside in tests).
 
 ## `F[_,_]` and axioms
 
